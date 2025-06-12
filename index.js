@@ -8,7 +8,7 @@ dotenv.config();
 const init = async () => {
   const server = Hapi.server({
     port: process.env.PORT || 5500,
-    host: 'https://oxlskpgoxmnrncflommw.supabase.co',
+    host: 'localhost',
     routes: {
       cors: {
         origin: ['*'],
